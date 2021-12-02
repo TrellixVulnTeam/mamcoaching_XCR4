@@ -1,0 +1,68 @@
+body {
+    background-color: whitesmoke;
+}
+.head-fonts{
+    font-size: 7vw;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.head-fonts-2{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+}
+
+.backdrop{
+    background-color: rgba(169, 169, 169, 0.418);
+    padding: 2vw 1vw;
+}
+
+.backdrop-2{
+    background-color: rgb(34, 34, 34);
+    padding: 2vw 1vw;
+}
+.btn-place{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+.card{
+    border: none;
+    border-radius: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.card-footer{
+    background-color: darkgray;
+}
+.card-title h1 {
+    font-size: 2em;
+}
+.services{
+    font-size: 4vw;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+}
+.navbar{
+    background-color: rgb(34, 34, 34);
+}
+.top-box{
+    position: relative;
+}
+.big-text{
+    position: absolute;
+    font-size: 7vw;
+    color: whitesmoke;
+}
+
+.logo{
+    font-family: 'Roboto', sans-serif;
+}
+.photo{
+    border: white 10px solid;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+}
