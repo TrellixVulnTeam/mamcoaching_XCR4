@@ -45,7 +45,7 @@ body{
 }
 
 .card:hover{
-    background-color: #FFD3B4;
+    background-color: #31b0e2;
     transition: .5s;
 }
 .card-title h1 {
