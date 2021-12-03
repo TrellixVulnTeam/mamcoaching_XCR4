@@ -1,5 +1,5 @@
-body {
-    background-color: whitesmoke;
+*{
+    font-family: 'Roboto', sans-serif;
 }
 .head-fonts{
     font-size: 7vw;
@@ -7,10 +7,10 @@ body {
     color: white;
 }
 .head-fonts-2{
+    font-size: 7vw;
     font-family: 'Roboto', sans-serif;
-    position: absolute;
-    top: 20%;
-    text-align: center;
+    color: white;
+    text-align: right;
 }
 
 .backdrop{
@@ -19,7 +19,11 @@ body {
 }
 
 .backdrop-2{
-    background-color: rgb(34, 34, 34);
+    background-color: #2d2e2e;
+    padding: 2vw 1vw;
+}
+.backdrop-3{
+    background-color: #FFD3B4;
     padding: 2vw 1vw;
 }
 .btn-place{
@@ -31,15 +35,19 @@ body {
     border: none;
     border-radius: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(70, 70, 70);
 }
-.card-footer{
-    background-color: darkgray;
+
+.card:hover{
+    background-color: #FFD3B4;
+    transition: .5s;
 }
 .card-title h1 {
     font-size: 2em;
+    
 }
 .services{
-    font-size: 4vw;
+    font-size: 2vw;
     font-family: 'Roboto', sans-serif;
     color: white;
     text-align: center;
