@@ -18,12 +18,12 @@ body{
 
 .backdrop{
     background-color: rgba(169, 169, 169, 0.418);
-    padding: 2vw 1vw;
+    padding: 2vw 1vh;
 }
 
 .backdrop-2{
     background-color: #2d2e2e;
-    padding: 2vw 1vw;
+    padding: 8%;
 }
 .backdrop-3{
     background-color: #FFD3B4;
