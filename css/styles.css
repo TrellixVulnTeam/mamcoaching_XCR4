@@ -46,6 +46,9 @@
     font-size: 2em;
     
 }
+.card-footer{
+    background-color: black;
+}
 .services{
     font-size: 2vw;
     font-family: 'Roboto', sans-serif;
