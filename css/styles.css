@@ -1,6 +1,9 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+body{
+    background-color: #f0e4d3;
+}
 .head-fonts{
     font-size: 7vw;
     font-family: 'Roboto', sans-serif;
@@ -30,6 +33,9 @@
     position: absolute;
     top: 50%;
     left: 45%;
+}
+.break{
+    background-color: #AAA492;
 }
 .card{
     border: none;
@@ -70,6 +76,7 @@
 .logo{
     font-family: 'Roboto', sans-serif;
 }
+
 .photo{
     border: white 10px solid;
 }
