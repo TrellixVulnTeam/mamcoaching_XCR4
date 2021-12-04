@@ -122,14 +122,8 @@ h4{
     }
 }
 
-#fadeText {
-    animation: transitionIn 5s;
-    -moz-animation: transitionIn 5s ;
-    -webkit-animation: transitionIn 5s;
-}
-#scrollText{
-    animation: transitionIn 5s;
-    -moz-animation: transitionIn 5s ;
-    -webkit-animation: transitionIn 5s;
-}
+
+body[data-aos-duration='5000'] [data-aos],
+[data-aos][data-aos][data-aos-duration='5000'] {
+  transition-duration: 5000ms;
 }
