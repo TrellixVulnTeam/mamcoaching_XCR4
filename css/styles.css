@@ -9,6 +9,7 @@ body{
     font-family: 'Roboto', sans-serif;
     color: white;
 }
+
 .head-fonts-2{
     font-size: 7vw;
     font-family: 'Roboto', sans-serif;
@@ -20,6 +21,7 @@ body{
     background-color: rgba(169, 169, 169, 0.418);
     padding: 2vw 1vh;
 }
+
 
 .backdrop-2{
     background-color: #2d2e2e;
@@ -83,4 +85,51 @@ body{
 
 h4{
     font-family: 'Roboto', sans-serif;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+            opacity: 1;
+            transform: rotateX(0);
+    }
+}
+
+@-moz-keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+            opacity: 1;
+            transform: rotateX(0);
+    }
+}
+@-webkit-keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+            opacity: 1;
+            transform: rotateX(0);
+    }
+}
+
+#fadeText {
+    animation: transitionIn 5s;
+    -moz-animation: transitionIn 5s ;
+    -webkit-animation: transitionIn 5s;
+}
+#scrollText{
+    animation: transitionIn 5s;
+    -moz-animation: transitionIn 5s ;
+    -webkit-animation: transitionIn 5s;
+}
 }
