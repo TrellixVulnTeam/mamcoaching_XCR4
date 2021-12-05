@@ -30,36 +30,77 @@
               <a class="nav-link" href="#">Home </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#">Schedule</a>
             </li>
           </ul>
         </div>
       </nav>
 
-      <div class="container-fluid mt-5">
-        <div class="row">
-            <div class="col d-flex justify-content-center align-items-center">
-                <img class="img-fluid" src="images/mams.png" alt="">
+    <div id="shoeModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Schedule Now!</h2>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="container">
+                        <h1>Contact Information</h1>
+                    <form>
+                        <div class="form-row mb-2">
+                            <div class="col">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" class="form-control" placeholder="First Name">
+                            </div>
+                            <div class="col">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email1">Email address</label>
+                            <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input class="form-control" type="tel" id="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="services">Service</label>
+                            <select class="form-control" name="services" id="services">
+                                <option value="Visionary">The Visionary</option>
+                                <option value="Visionary">Goal Glow</option>
+                                <option value="Visionary">Wellness Living</option>
+                                <option value="Visionary">Mam to Mam</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="goals">What do you wish to improve on? (optional)</label>
+                            <textarea class="form-control" name="goals" id="goals" cols="30" rows="10">
+                            </textarea>
+                        </div>
+                        <button type="submit" class="btn btn-info rounded-0">Submit</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
-      </div>
+    </div>
 
     <div class="container-fluid mt-5 pb-5 top-break d-flex justify-content-center align-items">
         <div class="row mt-lg-5 d-flex align-items-center">
 
-            <div class="col mt-5 mb-5 text-nowrap">
+            <div class="col mt-5 mb-lg-5 text-nowrap">
                 <h1 class="consult">Schedule your free consultation today!</h1>
             </div>
 
             <div class="col">
-                <button class="btn btn-info btn-lg rounded-0 ">Schedule Now</button>
+                <button class="btn btn-info btn-lg rounded-0" role="button" data-toggle="modal" data-target="#shoeModal">Schedule Now</button>
             </div>
-            
         </div>
-
     </div>
     
 
@@ -70,9 +111,7 @@
             </div>
             <div class="col-lg-6 d-flex justify-content-center align-items-center flex-column backdrop">
                 <p>
-                    "Our mission is to help women advance in their careers and recognize their true value and potential. 
-                    We work with ambitious women to move up in their careers by creating confidence in their abilities, 
-                    establishing their own brand and building negotiation skills to get paid more."
+                    Coach women to find their true identities, unleash their potential and reach healthy lifestyles.
                 </p>
                 <img class="img-fluid arms-out" src="images/pexels-kamaji-ogino-5094673.jpg" alt="">
             </div>
@@ -83,7 +122,7 @@
 
         <div class="row">
             <div class="col-12 mb-5">
-                <h1 class="services">Services</h1>
+                <h1 class="services">Signature Services</h1>
             </div>
         </div>
 
@@ -93,14 +132,14 @@
             <div class="col-lg-3 mb-3" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
                 <div class="card">
                     <div class="card-title text-white text-center mt-4">
-                        <h1>Life Coaching</h1>
+                        <h1>The Visionary</h1>
                     </div>
                     <div class="card-body p-0">
                         <img class="img-fluid" src="images/pexels-cottonbro-4098232.jpg" alt="">
                     </div>
                     <div class="card-footer">
                         <p class="text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            Work with ambitious women to move up or make a transition in their careers by creating confidence in their abilities, establishing their own brand and building negotiation skills to earn more.  
                         </p>
                     </div>
                 </div>
@@ -109,14 +148,14 @@
             <div class="col-lg-3" data-aos="fade-left" data-aos-duration="700" data-aos-once="true">
                 <div class="card">
                     <div class="card-title text-white text-center mt-4">
-                        <h1>Goal Planning</h1>
+                        <h1>Goal Glow</h1>
                     </div>
                     <div class="card-body p-0">
                         <img class="img-fluid" src="images/pexels-anna-shvets-3727461.jpg" alt="">
                     </div>
                     <div class="card-footer ">
                         <p class="text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Coach women to find clarity in their goals and help them establish a plan for achieving them by clearly defining goals, aligning expectations and building a comprehensive goal plan.
                         </p>
                     </div>
                 </div>
@@ -133,7 +172,7 @@
                     </div>
                     <div class="card-footer">
                         <p class="text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            Work with women to find balance in both mind and body, including achieving work-life balance by finding their definition of wellness living, breaking down barriers, establishing a plan to overcome barriers and creating actionable steps to achieve their healthier lifestyles. 
                         </p>
                     </div>
                 </div>
@@ -149,7 +188,7 @@
                     </div>
                     <div class="card-footer">
                         <p class="text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                            Work with amazing moms to find and maintain their identities as an individual, to not lose themselves in their families lives while continuing to be a wonderful mother. Get rid of mom guilt and establish an identity outside of motherhood.  
                         </p>
                     </div>
                 </div>
@@ -187,8 +226,14 @@
         <div class="row backdrop mt-lg-5">
             <div class="col text-black">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi leo urna molestie at elementum eu facilisis sed odio. Velit laoreet id donec ultrices tincidunt. Vestibulum sed arcu non odio euismod lacinia at. Semper viverra nam libero justo. Id neque aliquam vestibulum morbi. Placerat in egestas erat imperdiet sed euismod nisi porta lorem. Senectus et netus et malesuada. Sagittis purus sit amet volutpat consequat. Et ligula ullamcorper malesuada proin libero nunc.
-                    Nec feugiat nisl pretium fusce id velit. Ultrices tincidunt arcu non sodales. Penatibus et magnis dis parturient montes nascetur ridiculus. Vestibulum lectus mauris ultrices eros. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Nulla malesuada pellentesque elit eget gravida cum sociis natoque penatibus. Placerat vestibulum lectus mauris ultrices eros. Blandit libero volutpat sed cras ornare arcu dui vivamus. Quam viverra orci sagittis eu volutpat odio facilisis mauris. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere. Iaculis at erat pellentesque adipiscing. Cras ornare arcu dui vivamus arcu felis bibendum ut. Feugiat nibh sed pulvinar proin gravida. Euismod in pellentesque massa placerat duis ultricies. Tortor posuere ac ut consequat semper. Nunc non blandit massa enim nec dui nunc mattis. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi. Semper viverra nam libero justo laoreet sit. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Id aliquet lectus proin nibh nisl condimentum id.
+                    I’m a passionate woman with family, career and fitness aspirations. I believe in achieving happier lives through making meaningful choices, work-life balance and healthy lifestyles. My passion is to help people to grow to their true potential. 
+                </p>
+                <p>    
+                    I’m a wife and mother of 3 amazing sons, certified public accountant, an executive at a Fortune 300 company, life coach, yoga instructor and powerlifter. I juggle a lot but my family, career and fitness make me happy, provides fulfillment and in many ways provides the life balance I need. My family helps me balance my dedication to career, fitness helps me get clarity in mind to balance my career and family, and my career allows me to support both my family and fitness aspirations. I wasn’t always able to find balance in my aspirations and at certain points in my life I didn’t even know what my aspirations were as I couldn’t navigate through all my thoughts and desires. I’ve been lost many times in my life, as a young wife and mother I got lost in building my purpose around my family, in my career I’ve gotten lost trying to cater toward others expectations and not going for the job opportunities I really wanted because I felt I wasn’t ready or was too afraid to ask for what I deserved, and there were times I lost my connection with fitness because of outside pressures and time constraints. 
+                </p>
+                <p>
+                    I’m fortunate to be able to have learned from these challenging times in my life and that I made meaningful choices, which has allowed me to feel amazing in my family relationships, career, body and mind. I want to my share experiences and knowledge with other women and empower them to do the same! As a coach I want to be an unbiased brainstorming partner. I want to help women navigate their thoughts and desires to make purposeful decisions and actions that align with their aspirations in life. I want each woman I coach to see their true potential while being their authentic selves, and then unlock it for the world to see and benefit from.
+
                 </p>
             </div>
         </div>
