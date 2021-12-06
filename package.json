@@ -35,6 +35,9 @@
     "imagemin-gifsicle": "^6.0.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
     "uuid": "^7.0.3"
-  }
+  },
+  "repository": "https://github.com/AnthonyJ253/mams-coaching.git"
 }
