@@ -1,7 +1,7 @@
 {
-  "name": "nucampsite",
+  "name": "mam-coaching",
   "version": "1.0.0",
-  "description": "This is a website for the fictional campsites review site NuCamp.",
+  "description": "mam coaching life coaching site",
   "main": "index.html",
   "scripts": {
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
@@ -19,9 +19,6 @@
   "author": "Anthony Johnson",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.16.0",
-    "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.16.4",
     "copyfiles": "^2.2.0",
     "imagemin-cli": "^5.1.0",
     "lite-server": "^2.6.1",
@@ -32,25 +29,12 @@
     "usemin-cli": "^0.6.0"
   },
   "dependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-react-app": "^3.1.2",
-    "bootstrap": "^4.6.1",
+    "bootstrap": "^4.5.2",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "imagemin-gifsicle": "^6.0.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
-    "react": "15.6.1",
-    "react-dom": "15.6.1",
     "uuid": "^7.0.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AnthonyJ253/mams-coaching.git"
-  },
-  "bugs": {
-    "url": "https://github.com/AnthonyJ253/mams-coaching/issues"
-  },
-  "homepage": "https://github.com/AnthonyJ253/mams-coaching#readme",
-  "keywords": []
+  }
 }
