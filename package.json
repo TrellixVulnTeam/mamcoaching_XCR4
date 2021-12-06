@@ -19,6 +19,9 @@
   "author": "Anthony Johnson",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
     "copyfiles": "^2.2.0",
     "imagemin-cli": "^5.1.0",
     "lite-server": "^2.6.1",
@@ -29,6 +32,8 @@
     "usemin-cli": "^0.6.0"
   },
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
     "bootstrap": "^4.6.1",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
@@ -39,5 +44,13 @@
     "react-dom": "15.6.1",
     "uuid": "^7.0.3"
   },
-  "repository": "https://github.com/AnthonyJ253/mams-coaching.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyJ253/mams-coaching.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnthonyJ253/mams-coaching/issues"
+  },
+  "homepage": "https://github.com/AnthonyJ253/mams-coaching#readme",
+  "keywords": []
 }

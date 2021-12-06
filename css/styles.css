@@ -64,8 +64,18 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: rgb(70, 70, 70);
 }
+.card-light {
+    background-color: #e6e2d9;
+}
+.card-light h2 {
+    font-size: 100%;
+    white-space: nowrap;
+}
+.card-light p {
+    font-size: 60%;
+}
 
-.card:hover{
+.card-hov:hover{
     background-color: #31b0e2;
     transition: .5s;
 }
@@ -73,8 +83,13 @@ body{
     font-size: 2em;
     
 }
-.card-footer{
+.card-hov .card-footer{
     background-color: black;
+    color: white;
+}
+.card-footer{
+    background-color: none;
+    border: none;
 }
 .services{
     font-size: 2vw;
