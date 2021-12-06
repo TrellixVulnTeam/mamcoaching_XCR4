@@ -44,7 +44,6 @@ body{
     font-size: 1.25em;
 }
 
-
 .backdrop-2{
     background-color: #2d2e2e;
     padding: 8%;
@@ -62,7 +61,11 @@ body{
     background-color: #AAA492;
 }
 .break-2{
-    background-color: #858072;
+    background-color: #e6e2d9;
+}
+.break-3{
+    background-color: #2d2e2e;
+    color: #AAA492;
 }
 .card{
     border: none;
